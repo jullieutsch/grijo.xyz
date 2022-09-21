@@ -1,0 +1,36 @@
+html { height: 100%;}
+body { 
+    height: 100%;
+    background-image: linear-gradient( rgb(253, 83, 151) 10%, white);
+    background-repeat: no-repeat;
+    font-family: 'Helvetica Neue';
+    color: white;
+    font-weight: 500;
+}
+#main-title {
+    color: white;
+    font-size: 80px;
+    margin-left: 1.5%;
+    display: inline;
+}
+#top-menu {
+    color: white;
+    display: inline;
+}
+
+#top-menu li {
+    display: inline;
+    margin: 10px;
+}
+a { 
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    background-color: rgb(204, 50, 150);
+}
+main {
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-right: 20%;
+}
