@@ -34,3 +34,15 @@ main {
     margin-top: 5%;
     margin-right: 20%;
 }
+
+#fotoinicio {
+    margin-left: 1.5%;;
+    width: 100px;
+    position: absolute;
+    animation: caindo 10s infinite;
+}
+  
+  @keyframes caindo {
+    0%   {top:0px;}
+    100% {top:500px;}
+  }
